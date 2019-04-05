@@ -1,0 +1,50 @@
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    text-align: center
+}
+
+#progressBar {
+    background-color: #4CAF50;
+}
+
+#score {
+    text-align: center;
+    font-size: 28px;
+}
+
+#btnContainer {
+    height: 300px;
+    width: 300px;
+}
+
+#btnContainer button {
+    border: none;
+    background: none;
+    position: absolute;
+    font-size: 20px;
+
+}
+
+#fizzBtn {
+    top: 40%;
+    left: 10%
+}
+
+#buzzBtn {
+    top: 40%;
+    right: 10%
+}
+
+#fbBtn {
+    top: 75%;
+    left: 10%;
+}
+
+#nextBtn {
+    top: 75%;
+    right: 10%
+}
